@@ -5,8 +5,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final int days = 30;
-    final String name = 'Hello';
+    final int days = 3;
+    final String name = 'Flutter';
 
     // double pi = 3.14;
     // bool isTrue = true;
@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text('Welcome to $days  days of  Flutter by $name'),
+          child: Text('Welcome to $name Lab: Number $days'),
         ),
       ),
       drawer: Drawer(),
